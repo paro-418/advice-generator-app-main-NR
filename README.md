@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/mobile-first-approach-using-tailwind-css-_HUneTYc4J
 - Live Site URL: https://paro-810.github.io/advice-generator-app-main/
 
 ### Built with
