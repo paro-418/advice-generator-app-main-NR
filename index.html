@@ -1,35 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.tailwindcss.com"></script>
-  
-  <title>Frontend Mentor | Advice generator app</title>
-<style>
-/* body{
-  background-color: #cee3e9;
-  #323a49
-} */
-</style>
-</head>
-<body class="h-screen w-screen flex items-center justify-center bg-[#1f2632] ">
-  <div class="quote-box w-11/12 h-1/2 text-center py-7 px-3 rounded-2xl relative bg-[#323a49] lg:w-1/2 ">
-    
-    <p class="text-[#52ffa8] font-semibold tracking-[0.25rem] uppercase text-sm">advice &nbsp;<span>#117</span></p>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
-    <p class="relative quote mt-4 mb-4 px-4 text-2xl text-[#cee3e9] font-bold max-h-[70%] overflow-hidden">Lorem ipsum dolor sit amet consectetur, Lorem ipsum Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-    </p>
-      
-      <img src="images/pattern-divider-mobile.svg" alt="just an svg" class="bottom-[15%]  absolute -translate-x-2/4 left-2/4 lg:hidden">
-      <img src="images/pattern-divider-desktop.svg" alt="just an svg" class="bottom-[15%]  absolute -translate-x-2/4 left-2/4 hidden lg:block lg:bottom-[20%]">
+    <title>Frontend Mentor | Advice generator app</title>
+   
+  </head>
+  <body class="h-screen w-screen flex items-center justify-center bg-[#1f2632] ">
+    <div
+      class="quote-box w-11/12 h-1/2 text-center py-7 px-3 rounded-2xl relative bg-[#323a49] lg:w-1/2"
+    >
+      <p
+        class="text-[#52ffa8] font-semibold tracking-[0.25rem] uppercase text-sm"
+      >
+        advice &nbsp;<span>#117</span>
+      </p>
 
-    <button class="after-element absolute w-1/5 h-1/5 rounded-full flex items-center justify-center border-none bg-[#52ffa8] top-full right-2/4 translate-x-1/2 -translate-y-1/2 lg:w-[13.5%] lg:h-30  xl:w-[12.5%] xl:h-20">
-      <img src="images/icon-dice.svg" alt="button to change quotes">
-    </button>
-  </div>
-</body>
+      <p
+        class="relative quote mt-4 mb-4 px-4 text-2xl text-[#cee3e9] font-bold max-h-[70%] overflow-hidden font-[manrope]"
+      >
+        Lorem ipsum dolor sit amet consectetur, Lorem ipsum Lorem ipsum dolor
+        sit amet. Lorem ipsum dolor sit amet.
+      </p>
+
+      <img
+        src="images/pattern-divider-mobile.svg"
+        alt="just an svg"
+        class="bottom-[15%] absolute -translate-x-2/4 left-2/4 lg:hidden"
+      />
+      <img
+        src="images/pattern-divider-desktop.svg"
+        alt="just an svg"
+        class="bottom-[15%] absolute -translate-x-2/4 left-2/4 hidden lg:block lg:bottom-[20%]"
+      />
+
+      <button
+        class="after-element absolute w-1/5 h-1/5 rounded-full flex items-center justify-center border-none bg-[#52ffa8] top-full right-2/4 translate-x-1/2 -translate-y-1/2 lg:w-[13.5%] lg:h-30 xl:w-[12.5%] xl:h-20"
+      >
+        <img src="images/icon-dice.svg" alt="button to change quotes" />
+      </button>
+    </div>
+  </body>
 </html>
