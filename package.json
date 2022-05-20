@@ -8,6 +8,6 @@
     "vite": "^2.9.9"
   },
   "scripts": {
-    "start" : "vite"
+    "start": "vite"
   }
 }
