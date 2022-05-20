@@ -5,11 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
   
   <title>Frontend Mentor | Advice generator app</title>
-
+<style>
+/* body{
+  background-color: #cee3e9;
+} */
+</style>
 </head>
-<body>
+<body class="h-screen w-screen flex items-center justify-center bg-[#1f2632] border-4 border-gray-800">
+  <div class="quote-box w-11/12 h-1/2 text-center py-7 px-3 rounded-2xl relative bg-[#323a49] border-gray-700 ">
+    
+    <p class="text-[#52ffa8] font-semibold tracking-[0.25rem] uppercase text-sm">advice &nbsp;<span>#117</span></p>
 
+    <p class="relative quote mt-4 mb-4 px-4 text-2xl text-[#cee3e9] font-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, 
+      Lorem ipsum dolor sit amet.
+    </p>
+      
+      <img src="images/pattern-divider-mobile.svg" alt="just an svg" class="bottom-[15%]  absolute -translate-x-2/4 left-2/4">
+
+    <button class="after-element absolute w-1/5 h-1/5 rounded-full flex items-center justify-center border-none bg-[#52ffa8] top-full right-2/4 translate-x-1/2 -translate-y-1/2">
+      <img src="images/icon-dice.svg" alt="button to change quotes">
+    </button>
+  </div>
 </body>
 </html>
